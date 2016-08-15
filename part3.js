@@ -15,6 +15,8 @@ function generateFaces(){
         LeftSide.appendChild(image);
 
     }
+    var LeftSideImages = LeftSide.cloneNode(true)[-1];
 
+    LeftSideImages.appendChild(RightSide);
 }
 generateFaces();
