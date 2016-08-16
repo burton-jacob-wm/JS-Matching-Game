@@ -31,6 +31,7 @@ function generateFaces(){
         }
         face_number += 5;
         face_size -= 1;
+        if (face_size >= 10){face_size = 10;}
         generateFaces();
     };
 }
